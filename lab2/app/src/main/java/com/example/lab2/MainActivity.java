@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     private Button photoButton;
     private TextView result;
     private ImageView image;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
