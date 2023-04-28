@@ -56,4 +56,10 @@ public class SomeService extends Service {
         super.onDestroy();
         Log.d(TAG, "Service is destroyed.");
     }
+
+    @Override
+    public boolean onUnbind(Intent intent) {
+        Log.d(TAG, "Unbind");
+        return super.onUnbind(intent);
+    }
 }
